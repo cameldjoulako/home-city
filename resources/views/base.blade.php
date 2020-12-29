@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title> @yield('title', 'Home City')</title>
+        <title> @yield('title', env('APP_NAME'))</title>
 
     </head>
     <body class="">
         @yield('content')
 
         <footer>
-            <p>&copy; Copyrigth {{ date('Y') }} &middot; Camel Djoulako &middot; <a href="/about-us">About Us</a> </p>
+            <p>&copy; Copyrigth {{ date('Y') }} &middot; {{ config('app.name') }} &middot; <a href="{{ route('about') }}">About Us</a> </p>
         </footer>
     </body>
 </html>

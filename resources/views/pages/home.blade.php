@@ -1,8 +1,8 @@
 @extends('base')
 
-{{-- @section('title')
-    Home City
-@endsection --}}
+@section('title')
+    {{ env('APP_NAME') }}
+@endsection
 
 @section('content')
     <h1>Hello from Douala - {{ date('d/M/Y') }}</h1>
