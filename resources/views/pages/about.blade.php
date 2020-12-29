@@ -20,7 +20,7 @@
         <p><a href="/">Revenir à la page d'accueil</a></p>
 
         <footer>
-            <p>&copy; Copyrigth {{ date('Y') }} &middot; Camel Djoulako &middot; <a href="/about-us">About Us</a> </p>
+            <p>&copy; Copyrigth {{ date('Y') }} &middot; Camel Djoulako &middot; </p>
         </footer>
     </body>
 </html>
