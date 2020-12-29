@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+    <img src="/images/cameroon-flag.jpeg" alt="Cameroon Flag">
     <h1>Hello from Douala - {{ date('d/M/Y') }}</h1>
 
     <p>

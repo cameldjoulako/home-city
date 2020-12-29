@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+<img src="/images/logo-homedeve.png" alt="Cameroon Flag" style="display: block; width: 20%">
     <p>
         Built with &hearts; by Homedeve.
     </p>
