@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.app')
 
 @section('title')
     About Us | {{ env('APP_NAME') }}
