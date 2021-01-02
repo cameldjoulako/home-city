@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    About Us | {{ env('APP_NAME') }}
+    About Us
 @endsection
 
 @section('content')
@@ -12,4 +12,5 @@
     <p >
         <a class="text-indigo-500 hover:text-indigo-600 underline" href="{{ route('home') }}">Revenir à la page d'accueil</a>
     </p>
+    {{ page_title('Inscription') }}
 @endsection
